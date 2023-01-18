@@ -12,6 +12,8 @@
 		2A7D29E32976D3360018108E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D29E22976D3350018108E /* HomeView.swift */; };
 		2A7D29E5297701C70018108E /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D29E4297701C70018108E /* LocationManager.swift */; };
 		2A7D29E7297724E90018108E /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A7D29E6297724E90018108E /* MapView.swift */; };
+		2A92C9F029781A9100782B09 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C9EF29781A9100782B09 /* Location.swift */; };
+		2A92C9F22978234D00782B09 /* LocationsDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A92C9F12978234D00782B09 /* LocationsDataService.swift */; };
 		5EF46B1B273ECB320093EDC8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF46B1A273ECB320093EDC8 /* AppDelegate.swift */; };
 		5EF46B1D273ECB320093EDC8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF46B1C273ECB320093EDC8 /* SceneDelegate.swift */; };
 		5EF46B1F273ECB320093EDC8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EF46B1E273ECB320093EDC8 /* ContentView.swift */; };
@@ -26,6 +28,8 @@
 		2A7D29E22976D3350018108E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		2A7D29E4297701C70018108E /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
 		2A7D29E6297724E90018108E /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		2A92C9EF29781A9100782B09 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
+		2A92C9F12978234D00782B09 /* LocationsDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationsDataService.swift; sourceTree = "<group>"; };
 		5EF46B17273ECB320093EDC8 /* RegionMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RegionMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EF46B1A273ECB320093EDC8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5EF46B1C273ECB320093EDC8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -56,6 +60,32 @@
 			path = "Extra files";
 			sourceTree = "<group>";
 		};
+		2A92C9EC29781A3900782B09 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5EF46B1E273ECB320093EDC8 /* ContentView.swift */,
+				2A7D29DF2976C90B0018108E /* OutRegionView.swift */,
+				2A7D29DD2976BC130018108E /* InRegionView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2A92C9EE29781A5C00782B09 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2A92C9EF29781A9100782B09 /* Location.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2A92C9F32978235300782B09 /* DataServices */ = {
+			isa = PBXGroup;
+			children = (
+				2A92C9F12978234D00782B09 /* LocationsDataService.swift */,
+			);
+			path = DataServices;
+			sourceTree = "<group>";
+		};
 		5EF46B0E273ECB320093EDC8 = {
 			isa = PBXGroup;
 			children = (
@@ -77,10 +107,10 @@
 			children = (
 				5EF46B1A273ECB320093EDC8 /* AppDelegate.swift */,
 				5EF46B1C273ECB320093EDC8 /* SceneDelegate.swift */,
-				5EF46B1E273ECB320093EDC8 /* ContentView.swift */,
+				2A92C9F32978235300782B09 /* DataServices */,
+				2A92C9EE29781A5C00782B09 /* Models */,
+				2A92C9EC29781A3900782B09 /* Views */,
 				2A92C9B02977C7EC00782B09 /* Extra files */,
-				2A7D29DF2976C90B0018108E /* OutRegionView.swift */,
-				2A7D29DD2976BC130018108E /* InRegionView.swift */,
 				2A7D29DC2976B8C70018108E /* Inside Room.gpx */,
 				5EF46B20273ECB330093EDC8 /* Assets.xcassets */,
 				5EF46B28273ECB330093EDC8 /* Info.plist */,
@@ -170,6 +200,8 @@
 				2A7D29E7297724E90018108E /* MapView.swift in Sources */,
 				5EF46B1B273ECB320093EDC8 /* AppDelegate.swift in Sources */,
 				2A7D29E02976C90B0018108E /* OutRegionView.swift in Sources */,
+				2A92C9F22978234D00782B09 /* LocationsDataService.swift in Sources */,
+				2A92C9F029781A9100782B09 /* Location.swift in Sources */,
 				2A7D29E5297701C70018108E /* LocationManager.swift in Sources */,
 				2A7D29E32976D3360018108E /* HomeView.swift in Sources */,
 				5EF46B1D273ECB320093EDC8 /* SceneDelegate.swift in Sources */,
